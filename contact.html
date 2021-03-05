@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Bartosz-website</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">   
+   </head>
+   <body class="page-main">
+     <div class = "col-lg-6 mx-auto">
+    <form>
+        <div class="form-group">
+          <label>Imie</label>
+          <input type="text" class="form-control" placeholder="Podaj imie">
+          <small class="form-text text-muted">W powyższym polu wpisujesz swoje imie.</small>
+        </div>
+        <div class="form-group">
+          <label>Nazwisko</label>
+          <input type="text" class="form-control" placeholder="Podaj twoje nazwisko">
+        </div>
+        <div class="form-group">
+          <label>E-mail</label>
+          <input type="email" class="form-control" placeholder="Podaj twoj adres email">
+        </div>
+        <label>Plec</label>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="przykladowyCheckbox">
+          <label class="form-check-label">Kobieta</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="przykladowyCheckbox">
+          <label class="form-check-label">Mezczyzna</label>
+        </div>
+        <div class="form-group">
+          <label>Opis</label>
+          <textarea class="form-control"rows="3"></textarea>
+        </div>
+        <label class = "mt-2">Wiek</label>
+        <select class="form-control">
+          <option>18</option>
+          <option>19</option>
+          <option>20</option>
+        </select>
+        <label class = "mt-2">Stan cywilny</label>
+        <select class="form-control">
+          <option>Panna/kawaler</option>
+          <option>Giga chad</option>
+        </select>
+        <button type="submit" class="btn btn-primary mt-2">Wyczyść</button>
+        <button type="submit" class="btn btn-primary mt-2">Wyślij</button>
+      </form>
+    </div>
+   </body>
+</html>
